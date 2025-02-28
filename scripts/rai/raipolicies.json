@@ -22,8 +22,8 @@
                 "name": "selfharm",
                 "blocking": true,
                 "enabled": true,
-                "allowedContentLevel": "medium",
-                "source": "prompt"
+                "allowedContentLevel": "low",
+                "source": "completion"
             },
             {
                 "name": "violence",
@@ -57,20 +57,21 @@
                 "name": "violence",
                 "blocking": true,
                 "enabled": true,
-                "allowedContentLevel": "medium",
-                "source": "completion"
+                "allowedContentLevel": "high",
+                "source": "prompt"
             },
             {
+    
                 "name": "jailbreak",
-                "blocking": false,
+                "blocking": true,
                 "source": "prompt",
-                "enabled": false
+                "enabled": true
             },
             {
                 "name": "protected_material_text",
-                "blocking": false,
+                "blocking": true,
                 "source": "completion",
-                "enabled": false
+                "enabled": true
             },
             {
                 "name": "protected_material_code",
