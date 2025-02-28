@@ -26,13 +26,6 @@
                 "source": "completion"
             },
             {
-                "name": "violence",
-                "blocking": true,
-                "enabled": true,
-                "allowedContentLevel": "medium",
-                "source": "prompt"
-            },
-            {
                 "name": "hate",
                 "blocking": true,
                 "enabled": true,
@@ -47,13 +40,6 @@
                 "source": "completion"
             },
             {
-                "name": "selfharm",
-                "blocking": true,
-                "enabled": true,
-                "allowedContentLevel": "medium",
-                "source": "completion"
-            },
-            {
                 "name": "violence",
                 "blocking": true,
                 "enabled": true,
@@ -61,7 +47,6 @@
                 "source": "prompt"
             },
             {
-    
                 "name": "jailbreak",
                 "blocking": true,
                 "source": "prompt",
