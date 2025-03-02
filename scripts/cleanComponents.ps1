@@ -13,4 +13,4 @@ if (Test-Path -Path ".\.azure\gpt-rag-frontend") {
     Remove-Item -Path ".\.azure\gpt-rag-frontend" -Recurse -Force
 }
 
-#Nicole
+#Nicole Volk
